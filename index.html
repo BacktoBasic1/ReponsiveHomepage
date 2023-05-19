@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/054b30d207.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            
+            <a href="#"><img src="./images/Logo_GoBook.png" alt=""></a>
+           
+            
+            
+            <div class="nav-links" id="navLinks" >
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">WHY US</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">BOOKING</a></li>
+                </ul> 
+            </div>
+            
+        </nav>
+        <i class="fa fa-bars" onclick="showMenu()""></i>
+        
+        
+       
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>A website where everyone can BOOK appointment</h1>
+            <div class="btn-function">
+                <a href="#">Book Now!</a>
+            </div>
+        </div>
+      
+        <div class="hero-img">
+            <img src="./images/Big_Avatar2.png" alt="">
+        </div>
+        
+    </section>
+   
+        <!--End of Header Section-->
+    <section class="whyus-section">
+        <h1>Why Us?</h1>
+        <div class="row">
+            <div class="frame">
+                <h3>Service</h3>
+            </div>
+            <div class="frame">
+                <h3>Hello</h3>
+            </div>
+            <div class="frame">
+                <h3>Obama</h3>
+            </div>
+        </div>
+    </section>
+     
+    <!-- End of Why us section-->
+    <section class="ouragency">
+        <h1>Our Agency</h1>
+        <div class="row">
+            <div class="frame-agency">
+                <img src="./images/Ava_doc.png" alt="">
+                <div class="layer">
+                    <h3>Info 1</h3>
+                </div>   
+            </div>
+            <div class="frame-agency">
+                <img src="./images/Ava_doc2.png" alt="">
+                <div class="layer">
+                    <h3>Info 2</h3>
+                </div>
+            </div>
+            <div class="frame-agency">
+                <img src="./images/Ava_doc3.png" alt="">
+                <div class="layer">
+                    <h3>Info 3</h3>
+                </div>
+            </div>
+         
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu()
+        {
+            navLinks.style.right = "0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+        
+        <!--End of Our Agency section-->
+
+        <section class="footer">
+            
+                <a href="#"><img src="./images/Logo_withText.png" alt=""></a>
+                <div class="contact-info">
+                    <ul>
+                        <li><img src="./images/Contact_location.png" alt="">15 Tô Vĩnh Diện Phường Linh Chiểu</li>
+                        <li><img src="./images/Contact_phone.png" alt="">+84 812900824</li>
+                    </ul>
+                </div>
+                <div class="useful-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Why us</a></li>
+                        <li><a href="#">Appointment</a></li>
+                    </ul>
+                </div>
+            
+        </section>
+    </div>
+    
+
+
+
+    <script src="main.js"></script>
+
+
+</body>
+</html>
